@@ -10,18 +10,12 @@ import React from 'react';
 import type {Node} from 'react';
 import {SafeAreaView, ScrollView} from 'react-native';
 import TextInputExample from './components/TextInputExample';
+import FlatListExample from './components/FlatListExample';
 
 const App: () => Node = () => {
   return (
     <SafeAreaView>
-      <ScrollView>
-        <TextInputExample />
-        <TextInputExample />
-        <TextInputExample />
-        <TextInputExample />
-        <TextInputExample />
-        <TextInputExample />
-      </ScrollView>
+      <FlatListExample />
     </SafeAreaView>
   );
 };
