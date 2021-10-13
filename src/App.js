@@ -8,10 +8,21 @@
 
 import React from 'react';
 import type {Node} from 'react';
-import {SafeAreaView} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import Layout from './components/Layout';
 
 const App: () => Node = () => {
-  return <SafeAreaView></SafeAreaView>;
+  return (
+    <SafeAreaView style={styles.container}>
+      <Layout />
+    </SafeAreaView>
+  );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
 
 export default App;
