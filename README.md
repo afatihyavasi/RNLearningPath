@@ -4,3 +4,6 @@ React Native öğrenmek amacıyla yaptığım denemeleri bu repo üzerinden taki
 
 - Core components 👌
 - Platform Specific Code 👌
+- Design 👌
+- Interaction 👌
+
